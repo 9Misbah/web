@@ -5,6 +5,7 @@ body {
 h1 {
   display: grid;
   color: white;
+  font-family: Tw Cen MT;
   font-size: 80px;
   font-weight: 600;
   margin-block-start: auto;
@@ -15,6 +16,7 @@ h1 {
 h2 {
   display: grid;
   color: white;
+  font-family: Tw Cen MT;
   font-size: 80px;
   font-weight: 100;
   margin-block-start: auto;
@@ -27,6 +29,7 @@ h3 {
   color: white;
   margin-block-start: 30px;
   margin-block-end: auto;
+  font-family: Tw Cen MT;
   font-size: 20px;
   font-weight: 100;
   justify-content: center;
