@@ -1,0 +1,41 @@
+body {
+  background: black;
+}
+
+h1 {
+  display: grid;
+  color: white;
+  font-family: Tw Cen MT;
+  font-size: 80px;
+  font-weight: 600;
+  margin-block-start: auto;
+  margin-block-end: -20px;
+  justify-content: center;
+}
+
+h2 {
+  display: grid;
+  color: white;
+  font-family: Tw Cen MT;
+  font-size: 80px;
+  font-weight: 100;
+  margin-block-start: auto;
+  margin-block-end: auto;
+  justify-content: center;
+}
+
+h3 {
+  display: grid;
+  color: white;
+  margin-block-start: 30px;
+  margin-block-end: auto;
+  font-family: Tw Cen MT;
+  font-size: 20px;
+  font-weight: 100;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  display: grid;
+}
