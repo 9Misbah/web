@@ -34,8 +34,30 @@ h3 {
   font-weight: 100;
   justify-content: center;
 }
+.container {
+  height: 50vh;
 
-p {
-  color: white;
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  height: 100px;
+  width: 200px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: white;
+  border-radius: 10px;
+}
+.images {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  font-weight: 600;
 }
