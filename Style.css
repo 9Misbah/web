@@ -47,22 +47,26 @@ h2 {
 }
 .box {
   display: flex;
-  height: 100px;
-  width: 200px;
+  height: 200px;
+  width: 300px;
   flex-direction: column;
   justify-content: space-evenly;
   background: white;
   border-radius: 20px;
 }
 .images {
+  height: auto;
+  width: auto;
+  padding: auto;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
 .text {
   display: flex;
   justify-content: center;
   font-family: Tw Cen MT;
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 600;
 }
 
@@ -70,12 +74,22 @@ h2 {
   font-size: 50px;
   color: black;
   font-weight: 100;
+  transition: all 0.3s;
 }
-
-img.mail {
-  height: 50px;
+.fa-brands.fa-whatsapp:hover {
+  font-size: 55px;
+  color: gray;
 }
-
+span.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" -25, "opsz" 25;
+  font-size: 60px;
+  color: black;
+  transition: all 0.3s;
+}
+span.material-symbols-outlined:hover {
+  font-size: 62px;
+  color: gray;
+}
 @media (min-width: 350px) {
   h1 {
     font-size: 100px;
