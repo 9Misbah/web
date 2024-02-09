@@ -1,16 +1,27 @@
 @font-face {
-  src: url(TwCenMT.ttf);
+  src: url(Fonts/TwCenMT.ttf);
   font-family: Tw Cen MT;
 }
+
 body {
   background: black;
+}
+h3 {
+  display: grid;
+  color: white;
+  margin-block-start: 30px;
+  margin-block-end: auto;
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  font-weight: 100;
+  justify-content: center;
 }
 
 h1 {
   display: grid;
   color: white;
   font-family: Tw Cen MT;
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 600;
   margin-block-start: auto;
   margin-block-end: -20px;
@@ -21,26 +32,15 @@ h2 {
   display: grid;
   color: white;
   font-family: Tw Cen MT;
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 100;
   margin-block-start: auto;
   margin-block-end: auto;
   justify-content: center;
 }
 
-h3 {
-  display: grid;
-  color: white;
-  margin-block-start: 30px;
-  margin-block-end: auto;
-  font-family: Tw Cen MT;
-  font-size: 20px;
-  font-weight: 100;
-  justify-content: center;
-}
 .container {
-  height: 200px;
-
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,7 +52,7 @@ h3 {
   flex-direction: column;
   justify-content: space-evenly;
   background: white;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .images {
   display: flex;
@@ -64,4 +64,20 @@ h3 {
   font-family: Tw Cen MT;
   font-size: 30px;
   font-weight: 600;
+}
+
+.fa-brands.fa-whatsapp {
+  font-size: 50px;
+  color: black;
+  font-weight: 100;
+}
+
+img.mail {
+  height: 50px;
+}
+
+@media (min-width: 350px) {
+  h1 {
+    font-size: 100px;
+  }
 }
