@@ -1,0 +1,109 @@
+body {
+    background-color: #121113;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes Hightup {
+    0% {
+        margin-bottom: 100vh;
+    }
+
+    100% {
+        margin-bottom: 10vh;
+    }
+}
+
+
+h1 {
+    color: white;
+    font-size: small;
+}
+
+h2 {
+    font-weight: bolder;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.Menu {
+    text-align: center;
+
+}
+
+.Logo {
+    height: 150px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
+    padding: 10px;
+
+}
+
+
+
+.menu {
+    display: inline-flex;
+    /* Set h1 to inline display */
+    margin: 0px 5px 0px 5px;
+    /* Optional: add margin between the links */
+    color: white;
+    font-size: small;
+    transform: scale(1);
+    transition: all 1.0s;
+    animation: fadeIn 2s forwards delay iteration-count direction fill-mode;
+}
+
+.menu:hover {
+    color: yellow;
+    transform: scale(0.9);
+}
+
+@media (min-width: 1000px) {
+    h2 {
+        font-size: 110px;
+
+    }
+
+    p {
+        font-size: 50px;
+        line-height: 60px;
+
+    }
+
+    .Logo {
+
+        height: 400px;
+    }
+
+    .Menu {
+        position: relative;
+    }
+
+}
